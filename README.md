@@ -8,3 +8,5 @@ The purpose of the app is to demonstrate some language features and concepts suc
 - Unit testing of the viewmodel, including mock interface dependency injection
 
 Time taken: about one and a half days... much of which was debugging visual elements in WPF, such as binding of icons for the TreeViewItems and DataGridItems...
+
+<img src="https://github.com/pmulvey99/LocalFileListApp/blob/master/app_screenshot.png" width="600"/>
