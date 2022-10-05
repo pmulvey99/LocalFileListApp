@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Document.png" />
+    <None Remove="Resources\FolderClosed.png" />
+    <None Remove="Resources\HardDrive.png" />
+    <None Remove="Resources\Run128.png" />
+    <None Remove="Resources\Run16.png" />
+    <None Remove="Resources\Run32.png" />
+    <None Remove="Resources\Run64.png" />
+    <None Remove="Resources\Stop128.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Document.png" />
+    <Resource Include="Resources\FolderClosed.png" />
+    <Resource Include="Resources\HardDrive.png" />
+    <Resource Include="Resources\Run128.png" />
+    <Resource Include="Resources\Run16.png" />
+    <Resource Include="Resources\Run32.png" />
+    <Resource Include="Resources\Run64.png" />
+    <Resource Include="Resources\Stop128.png" />
+  </ItemGroup>
+
+</Project>
